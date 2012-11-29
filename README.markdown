@@ -257,6 +257,11 @@ In a rough performance test, precompiled Handlebars.js templates (in the origina
 
 Building
 --------
+*
+sudo apt-get install rake
+sudo apt-get install rails
+bundle install
+*
 
 To build handlebars, just run `rake release`, and you will get two files
 in the `dist` directory.
